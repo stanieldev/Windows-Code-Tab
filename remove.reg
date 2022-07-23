@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+; File: remove.reg
+; Author: Stanley Goodwin
+; Description:
+;   Removes the Code tab keys from the registry.
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\DefaultIcon]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\InProcServer32]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\Instance]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\Instance\InitPropertyBag]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\ShellFolder]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\DefaultIcon]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\InProcServer32]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\Instance]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\Instance\InitPropertyBag]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes\CLSID\{644d3607-5db3-4fd4-b3a2-9655caa0150d}\ShellFolder]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{644d3607-5db3-4fd4-b3a2-9655caa0150d}]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{644d3607-5db3-4fd4-b3a2-9655caa0150d}]

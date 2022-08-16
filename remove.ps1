@@ -16,3 +16,8 @@ $regeditparams = @{
 $removekeys = Start-Process @regeditparams
 if ($removekeys.ExitCode -eq 0) { "Successfully removed keys from registry!" }
 else { "Failed to remove keys from registry! Exit code: $($removekeys.ExitCode)" }
+
+
+# Reload File Explorer
+taskkill /F /IM explorer.exe
+Start-Process explorer.exe

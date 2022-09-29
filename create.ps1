@@ -30,11 +30,11 @@ ELSE {
 
 # Add custom keys to registry
 $regeditparams = @{
-    FilePath     = "$Env:SystemRoot\REGEDIT.exe"
-    ArgumentList = "/s", "$(Get-Location)\create.reg"
-    Verb         = "RunAs"
-    PassThru     = $true
-    Wait         = $true
+  FilePath     = "$Env:SystemRoot\REGEDIT.exe"
+  ArgumentList = "/s", "$(Get-Location)\create.reg"
+  Verb         = "RunAs"
+  PassThru     = $true
+  Wait         = $true
 }
 $addkeys = Start-Process @regeditparams
 if ($addkeys.ExitCode -eq 0) { "Successfully added keys to registry!" }

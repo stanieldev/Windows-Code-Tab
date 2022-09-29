@@ -7,11 +7,11 @@
 
 # Remove custom keys from registry
 $regeditparams = @{
-    FilePath     = "$Env:SystemRoot\REGEDIT.exe"
-    ArgumentList = "/s", "$(Get-Location)\remove.reg"
-    Verb         = "RunAs"
-    PassThru     = $true
-    Wait         = $true
+  FilePath     = "$Env:SystemRoot\REGEDIT.exe"
+  ArgumentList = "/s", "$(Get-Location)\remove.reg"
+  Verb         = "RunAs"
+  PassThru     = $true
+  Wait         = $true
 }
 $removekeys = Start-Process @regeditparams
 if ($removekeys.ExitCode -eq 0) { "Successfully removed keys from registry!" }

@@ -1,6 +1,7 @@
 Windows Registry Editor Version 5.00
 ; File: create.reg
 ; Author: Stanley Goodwin
+; Token Generator: https://www.guidgen.com/
 ; Description:
 ;   Creates the keys for the Code Tab to appear in This PC.
 
